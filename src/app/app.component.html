@@ -1,0 +1,23 @@
+<div class="model container">
+  <form class="m-5 box">
+    <div class="m-5">
+      <h1>My Todo list</h1>
+    <div>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>My Todo List</mat-label>
+        <input #task matInput placeholder="Ex. Call Boss" value="">
+      </mat-form-field>
+      <button mat-raised-button color="primary" (click)="addTask(task.value)">Add</button>
+    </div>
+    </div> 
+    <div class="container">
+      <mat-list role="list" *ngFor="let item of work" class="lic">
+        <mat-list-item class="row sit m-0" role="listitem">
+          <div class="col-md-9 p-2 wth"><p class="hlo">{{item.name}}</p></div>
+          <button mat-raised-button color="warn" (click)="removeTask(item.id)" class="col-md-3">Remove</button>
+        </mat-list-item>
+      </mat-list>
+    </div>
+    
+  </form>
+</div>

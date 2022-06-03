@@ -1,0 +1,40 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  .box {
+      border: 2px solid black;
+      border-radius: 10px;
+      width: 100%;
+  }
+  .model {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 100px;
+  }
+  .lic {
+      max-width: 100%;
+      margin: 10px;
+      padding: 0;
+  }
+  .bttn {
+      align-items: right;
+  }
+  .sit {
+    background-color: aquamarine;
+    border-radius: 10px;
+  }
+  .wth {
+    max-width: 100%;
+  }
+  .hlo {
+    width: 100% ;
+    overflow: hidden;
+    white-space: nowrap;
+  }
